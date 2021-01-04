@@ -1,1 +1,58 @@
+h1,h2,h3,h4,h5{
+    font-family: 'Frank Ruhl Libre', serif;
+}
+h2{
+    font-size: 2.5em;
+}
+h1{
+    font-size:3em;
+    text-align: left;
+}
+h4{
+    text-align:center;
+    opacity: .6;
+    margin-bottom: -2em;
+    font-weight: bold;
+}
+p{
+    font-family: 'Fira Sans',sans-serif;
+    font-weight: bold;
+    opacity: .6;
+    text-align: center;
+}
+.white-text{
+    color:white;
+}
+.img-family{
+    max-width: 40vw;
+    max-height: 40vh;
+    float:right;
+}
+*{
+    box-sizing: border-box;
+}
 
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.center-text{
+    text-align: center;
+    font-weight: bold;
+}
+.box-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.blue-box{
+text-align: center;
+flex: 1 1 100%
+}
+
+.orange-box{
+flex: 1 1 50%
+}
+.yellow-box{
+flex: 1 1 50%
+}
