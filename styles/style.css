@@ -5,7 +5,7 @@ h2{
     font-size: 2.5em;
 }
 h1{
-    font-size:3em;
+    font-size:3.5em;
     text-align: left;
 }
 h4{
@@ -14,11 +14,15 @@ h4{
     margin-bottom: -2em;
     font-weight: bold;
 }
+h5{
+    font-size: 2em;
+    margin: 5% 0;
+}
 p{
     font-family: 'Fira Sans',sans-serif;
     font-weight: bold;
-    opacity: .6;
-    text-align: center;
+    opacity: .5;
+    text-align: left;
 }
 .white-text{
     color:white;
@@ -30,29 +34,72 @@ p{
 }
 *{
     box-sizing: border-box;
+
 }
 
 .container{
     display: flex;
     flex-direction: column;
+    margin: 0;
+    width: min(100%, 70.5rem);
 }
 .center-text{
     text-align: center;
     font-weight: bold;
 }
 .box-wrapper{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+height:auto;
 }
 .blue-box{
-text-align: center;
-flex: 1 1 100%
+    
+    padding-inline-start: 20%;
+    padding-inline-end: 20%;
+    flex: 0 0 100%
 }
 
 .orange-box{
-flex: 1 1 50%
+flex: 0 0 50%
 }
 .yellow-box{
-flex: 1 1 50%
+flex: 0 0 50%
+}
+.grey-box{
+    flex: auto;
+}
+
+
+.card{
+    margin: 20% 15%;
+    padding: 0 0 15%;
+    background-color: white;
+    text-align: center;
+    border-radius: 1rem;  
+}
+
+.card p{
+    text-align: center;
+    margin: 0 15%;
+}
+
+.card img{
+    height:15rem;
+    width: 15rem;
+    padding: 0 15%;
+    margin-top: -10%;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+.img-child{
+   object-position: 0 -650% ;
+}
+
+.img-adult{
+    object-position: 0 -15%;
+}
+.img-old{
+    object-position: 0 -90%;
 }
