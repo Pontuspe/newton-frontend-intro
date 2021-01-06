@@ -29,11 +29,7 @@ p{
 .white-text{
     color:white;
 }
-.img-family{
-    max-width: 40vw;
-    max-height: 40vh;
-    float:right;
-}
+
 *{
     box-sizing: border-box;
 
@@ -49,24 +45,16 @@ p{
     text-align: center;
     font-weight: bold;
 }
-.btn-join{
-    font-family: 'Fira Sans', sans-serif;
-    float:left;
-    margin:10%;
-    width: 8rem;
-    font-weight: bold;
-    font-size: 0.8em;
-    border-radius: 1rem;
-    padding: 5%;
-    border:0px;
-    
-}
+
 .box-wrapper{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     height:auto;
 }
+
+/* Boxes */
+
 .blue-box{
     
     padding-inline-start: 20%;
@@ -106,7 +94,83 @@ p{
     margin-left: 3%;
     font-size:3em;
 }
+.hello-box{
+    display: flex;
+    
+}
+.mind-box{
+    display: grid;
+    grid-column: 2;
+    padding:5%;
+}
+.mind-box label{
+    font-size: large;
+    opacity: .7;
+    font-weight: bold;
+    color:lightgrey;
+    margin:2%;
+}
+.mind-box textarea,input{
+    margin:2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.grey-content{
+    grid-column: 2;
+}
+.map-box{
+    
+    flex-basis: 100%;
+}
+.visit-box{
+    max-width: 40vw;
+    display: flex;
+    flex-direction: column;
+    margin:5%;
+    padding:2%;
+}
+/*Buttons*/
+.btn-join{
+    font-family: 'Fira Sans', sans-serif;
+    float:left;
+    margin:10%;
+    width: 8rem;
+    font-weight: bold;
+    font-size: 0.8em;
+    border-radius: 1rem;
+    padding: 5%;
+    border:0px;
+    
+}
+.btn-message{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:10%;
+    width: 8rem;
+    font-weight: bold;
+    font-size: .8rem;
+    border-radius: 1rem;
+    padding:3%;
+    border: 0px;
+    
+}
 
+/*Navbar */
+.nav-bar{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    opacity: .7;
+    padding:3% 5%;
+
+}
+.nav-bar a{
+    padding: 3%;
+    border:none;
+    outline: none;
+    outline: 0;
+    
+}
+
+
+/* Cards*/
 .card{
     margin: 20% 15%;
     padding: 0 0 15%;
@@ -129,6 +193,18 @@ p{
     object-fit: cover;
 }
 
+/* Images */
+.img-family{
+    max-width: 40vw;
+    max-height: 40vh;
+    float:right;
+}
+
+.img-manboy{
+    max-width: 40vw;
+    max-height: 40vh;
+    float:right;
+}
 .img-child{
    object-position: 0 -50% ;
 }
@@ -139,3 +215,4 @@ p{
 .img-old{
     object-position: 0 -60%;
 }
+
